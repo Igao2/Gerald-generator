@@ -1,0 +1,72 @@
+body{
+    background-image: url("gerald.jpg");
+    background-position: center top;
+}
+@media screen and (min-width: 375px) and (orientation:portrait){
+    .conteiner{
+     zoom: 220%;
+    }
+   
+    
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    padding: 30px 30px;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    background-color: rgba(255, 255, 255, 0.349);
+    border: 1px solid rgb(11, 96, 170);
+    border-radius: 10px;
+}
+.titulo{
+    font-size: 22px;
+    color: white;
+}
+.but{
+    
+    background-color: #2009f7;
+  border: 1px solid #8092f7;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Montserrat", -apple-system,;
+  font-size: 16px;
+  font-weight: bold;
+  
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.result{
+    color: rgb(0, 0, 0);
+}
+
+.tt{
+background-image: url(vecteezy_twitter-logo-png-twitter-icon-transparent-free-png_18930745.png);
+padding: 30px;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0);
+border: none;
+}
